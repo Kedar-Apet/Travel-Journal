@@ -1,0 +1,55 @@
+.navbar {
+  background-color: tomato;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  position: relative;
+  width: 101.15%;
+  left: -9px;
+  right: -9px;
+  top: 11px;
+  margin: 0 auto;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  float: left ;
+  
+}
+.card-img {
+  border-radius: 5px;
+  width: 125px;
+  height: 168px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.location {
+  position: absolute;
+  margin-left: 130px;
+}
+.title {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 130px;
+}
+
+.date{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 130px;
+}
+
+.desc {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 130px; 
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
