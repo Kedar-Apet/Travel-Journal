@@ -1,9 +1,8 @@
 import logo from "../images/logo.png";
 export default function NavBar() {
   return (
-    <div className="navbar">
-      <img className="logo" src={logo} />
-      <h1 className="heading"> Travel Journal </h1>
+    <div className="container-fluid-nav text-center nav-title">
+      <h1   > Travel Journal </h1>
     </div>
   );
 }
